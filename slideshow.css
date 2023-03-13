@@ -8,8 +8,8 @@
     z-index: 0; 
 }
 .cb-slideshow:after { 
-    content: '';
-    background: transparent url(../images/pattern.png) repeat top left; 
+content: '';
+background: transparent url(../images/pattern.png) repeat top left; 
 }
 .cb-slideshow li span { 
     width: 100%;
@@ -88,7 +88,7 @@
     100% { opacity: 0 }
 }
 @keyframes titleAnimation { 
-    0% { opacity: 0 }
+    0% { opacity: 0}
     8% { opacity: 1 }
     17% { opacity: 1 }
     19% { opacity: 0 }
